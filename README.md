@@ -46,3 +46,22 @@ python inference_publictest.py
 cd code
 python inference_privatetest.py
 ```
+
+## Phân chia công việc
+| Thành viên       | Công việc                                               |
+|:-----------------|---------------------------------------------------------|
+| Đỗ Gia Phúc      | Thu thập dữ liệu âm thanh. Viết code inference          |
+| Nguyễn Đức Nhật  | Đào tạo mô hình. Làm pptx, docx                         |
+| Nguyễn Văn Hoàng | Viết code pipeline training mô hình. Tổng hợp thông tin |
+
+## Các model sử dụng
+| Mô hình          | Kích thước     |
+|:-----------------|----------------|
+| Whisper large v3 | 1.55B          |
+
+## Kết quả chạy
+
+| Bộ dữu liệu      | Score          |
+|:-----------------|----------------|
+| Public test      | 17.66          |
+| Private test     | 54.03          |
