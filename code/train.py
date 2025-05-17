@@ -24,8 +24,8 @@ torch.cuda.ipc_collect()
 class Config:
     """Configuration settings for the ASR training process."""
     # Data paths
-    TRAIN_DATA_DIR = "/root/ASR/dataset/Train_1.2GB"
-    VALIDATION_DATA_DIR = "/root/ASR/dataset/Validation_100MB"
+    TRAIN_DATA_DIR = "/root/ASR/dataset/Train_set"
+    VALIDATION_DATA_DIR = "/root/ASR/dataset/Validation_set"
     OUTPUT_DIR = "/root/ASR/pretrained_model"
     
     # Model configuration
