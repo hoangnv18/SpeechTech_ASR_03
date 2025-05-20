@@ -54,17 +54,12 @@ python inference_privatetest.py
 | Nguyễn Đức Nhật  | Đào tạo mô hình. Làm pptx, docx                         |
 | Nguyễn Văn Hoàng | Viết code pipeline training mô hình. Tổng hợp thông tin |
 
-## Các model sử dụng
-| Mô hình          | Kích thước     |
-|:-----------------|----------------|
-| Whisper large v3 | 1.55B          |
+## Kết quả chạy các model sử dụng
 
-## Kết quả chạy
-
-| Bộ dữu liệu      | Score          |
-|:-----------------|----------------|
-| Public test      | 17.66          |
-| Private test     | 54.03          |
+| Mô hình           | Kích thước     | Public test    | Private test   |
+|:------------------|----------------|----------------|----------------|
+| Whisper large v3  | 1.55B          | 17.66          | 54.03          |
+| Pho Whisper small | 244M           | 9.08           | 40.7           |
 
 ## Báo cáo word, pptx trong thư mục report
 
