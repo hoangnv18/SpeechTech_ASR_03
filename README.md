@@ -66,6 +66,5 @@ python inference_privatetest.py
 | Public test      | 17.66          |
 | Private test     | 54.03          |
 
-## Báo cáo word, pptx
-https://drive.google.com/drive/folders/1x7sv57BHaztTJAIOv4G7VoxnM1TLEKXk?usp=sharing
+## Báo cáo word, pptx trong thư mục report
 
